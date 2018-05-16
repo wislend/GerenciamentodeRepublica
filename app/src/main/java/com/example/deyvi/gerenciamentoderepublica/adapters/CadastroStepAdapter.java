@@ -5,6 +5,8 @@ import android.support.annotation.IntRange;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
 
+import com.example.deyvi.gerenciamentoderepublica.fragments.CadastroImovelFragment_;
+import com.example.deyvi.gerenciamentoderepublica.fragments.CadastroLocatarioFragment_;
 import com.stepstone.stepper.Step;
 import com.stepstone.stepper.adapter.AbstractFragmentStepAdapter;
 import com.stepstone.stepper.viewmodel.StepViewModel;
@@ -18,7 +20,18 @@ public class CadastroStepAdapter extends AbstractFragmentStepAdapter {
 
     @Override
     public Step createStep(int position) {
-        return null;
+        switch (position){
+            case 1:
+                return new CadastroImovelFragment_();
+
+            case 2:
+                return new CadastroImovelFragment_();
+        }
+
+        return  new CadastroLocatarioFragment_();
+
+
+
     }
 
     @Override

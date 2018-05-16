@@ -6,6 +6,7 @@ public class Locador {
     private String email;
     private String senha;
 
+
     public String getNome() {
         return nome;
     }

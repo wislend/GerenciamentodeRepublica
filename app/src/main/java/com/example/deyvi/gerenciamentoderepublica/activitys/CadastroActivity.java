@@ -19,7 +19,7 @@ public class CadastroActivity extends AppCompatActivity {
 
     @AfterViews
     void initCadastroActitity() {
-        mStepperLayout = (StepperLayout) findViewById(R.id.stepperLayout);
+        mStepperLayout = findViewById(R.id.stepperLayout);
         mStepperLayout.setAdapter(new CadastroStepAdapter(getSupportFragmentManager(), this));
     }
 

@@ -17,4 +17,20 @@
     <string name="email">Email</string>
     <string name="confirme_sua_senha">Confirme sua senha</string>
     <string name="senha">Senha</string>
+    <string name="nome_fantansia">Nome Fantasia</string>
+    <string name="cep">CEP</string>
+    <string name="rua">Rua</string>
+    <string name="numero">Numero</string>
+    <string name="ponto_de_referencia">Ponto de Referência</string>
+    <string name="juros_do_dia">Juros do dia</string>
+    <string name="juros_do_mes">Juros ao mês</string>
+    <string name="registre_imovel">Registre o Imóvel que você administra</string>
+    <string name="informacoes_importantes">Informações importantes....</string>
+
+    <string-array name="situacao">
+        <item>Selecione</item>
+        <item>Alugado</item>
+        <item>Própio</item>
+
+    </string-array>
 </resources>
