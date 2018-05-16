@@ -26,6 +26,12 @@
     <string name="juros_do_mes">Juros ao mês</string>
     <string name="registre_imovel">Registre o Imóvel que você administra</string>
     <string name="informacoes_importantes">Informações importantes....</string>
+    <string name="registrar_quartos">Não se preocupe esse cadastro será realizado apenas uma vez.</string>
+    <string name="locatario">Locatário</string>
+    <string name="valor_quarto">Valor quarto</string>
+    <string name="moveis">Movéis: </string>
+    <string name="identificacao_quarto">Identificação do quarto</string>
+    <string name="adicionar_mais_algum">Adicionar mais algum ?</string>
 
     <string-array name="situacao">
         <item>Selecione</item>
